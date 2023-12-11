@@ -1,0 +1,559 @@
+[
+   {
+      "id": "1464340559091359752",
+      "name": "NBA",
+      "username": "privvvvnba",
+      "created_at": "2021-11-26T21:09:42.000Z",
+      "location": "",
+      "protected": true,
+      "public_metrics": {
+         "followers_count": 1,
+         "following_count": 1,
+         "tweet_count": 231,
+         "listed_count": 0,
+         "like_count": 296
+      },
+      "description": "N  B  A",
+      "entities": "",
+      "pinned_tweet_id": "",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1732858552560111617/-hFNW2Gd_normal.jpg"
+   },
+   {
+      "id": "1570846669792546820",
+      "name": "BaneSquad",
+      "username": "BaneSquad_",
+      "created_at": "2022-09-16T18:46:54.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 58728,
+         "following_count": 306,
+         "tweet_count": 16367,
+         "listed_count": 227,
+         "like_count": 7706
+      },
+      "description": "Sports Bettor: Download the ChalkBoard & Sleeper DFS app & Use Code #BaneSquad 50,000+ Members in the Discord. Business Inquiries: BaneSquad@Outlook.com",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/JoaqW3ZNVN",
+                  "expanded_url": "https://linktr.ee/banesquad",
+                  "display_url": "linktr.ee/banesquad"
+               }
+            ]
+         },
+         "description": {
+            "hashtags": [
+               {
+                  "start": 68,
+                  "end": 78,
+                  "tag": "BaneSquad"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1685188403200192512",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1644471103618793472/1g8h_aQj_normal.jpg"
+   },
+   {
+      "id": "1668521921376563200",
+      "name": "Reydissimo\ud83d\udd2e",
+      "username": "vReyyzz",
+      "created_at": "2023-06-13T07:34:28.000Z",
+      "location": "The Void",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 4091,
+         "following_count": 222,
+         "tweet_count": 1647,
+         "listed_count": 13,
+         "like_count": 14111
+      },
+      "description": "Streamer/Sports Bettor \ud83c\udfb2 Blvck Void Gaming \ud83d\udc7e Check out The Void on Twitch\ud83d\udd73\ud83d\udd2e Positivity Brings Profit \u262e\ufe0f\ud83e\udef6\ud83c\udffe\ud83d\udcb9 Sleeper Code: REY",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/itMWr0Glie",
+                  "expanded_url": "https://twitch.tv/vreyyz",
+                  "display_url": "twitch.tv/vreyyz"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1732627348267114999",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1699153370638905344/UsWvtoRn_normal.jpg"
+   },
+   {
+      "id": "249763576",
+      "name": "The Official Big Wave",
+      "username": "thewavywizard",
+      "created_at": "2011-02-09T18:42:21.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 5456,
+         "following_count": 133,
+         "tweet_count": 22962,
+         "listed_count": 20,
+         "like_count": 3770
+      },
+      "description": "Electricity \ud83d\udd0b\u26a1\ufe0f - Sports Analyst/Sports Gambler. Download Chalkboard - SleeperDFS - Use CODE #WAVE",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/oIi3XHblTx",
+                  "expanded_url": "https://discord.gg/ems2zP5T",
+                  "display_url": "discord.gg/ems2zP5T"
+               }
+            ]
+         },
+         "description": {
+            "hashtags": [
+               {
+                  "start": 93,
+                  "end": 98,
+                  "tag": "WAVE"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1239058634870587392",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1731518072039596032/Sb8UiMIw_normal.jpg"
+   },
+   {
+      "id": "1616902422793699328",
+      "name": "Moe",
+      "username": "MoeNumbers",
+      "created_at": "2023-01-21T20:56:02.000Z",
+      "location": "San Antonio, TX",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 145,
+         "following_count": 358,
+         "tweet_count": 578,
+         "listed_count": 1,
+         "like_count": 388
+      },
+      "description": "ITKYK LETS CASH ! \ud83d\udcb0#Gambling Twitter",
+      "entities": {
+         "description": {
+            "hashtags": [
+               {
+                  "start": 19,
+                  "end": 28,
+                  "tag": "Gambling"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1696732760549843099",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1676584808908988421/EqUsdV8j_normal.jpg"
+   },
+   {
+      "id": "1693082434592501760",
+      "name": "MikeyPicks",
+      "username": "Mikeyfrmclt",
+      "created_at": "2023-08-20T02:08:17.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 2444,
+         "following_count": 48,
+         "tweet_count": 976,
+         "listed_count": 14,
+         "like_count": 209
+      },
+      "description": "Sports fanatic and Premium Capper in Thanos Server, Discord Link: https://t.co/PMQFztff0t",
+      "entities": {
+         "description": {
+            "urls": [
+               {
+                  "start": 66,
+                  "end": 89,
+                  "url": "https://t.co/PMQFztff0t",
+                  "expanded_url": "https://discord.gg/GyzdJRzn",
+                  "display_url": "discord.gg/GyzdJRzn"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1732166874878595247",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1726322547988344832/bYX7x_dB_normal.jpg"
+   },
+   {
+      "id": "1649287454539632640",
+      "name": "Chris Smith",
+      "username": "Chrisbe47481196",
+      "created_at": "2023-04-21T05:42:32.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 30,
+         "following_count": 184,
+         "tweet_count": 554,
+         "listed_count": 0,
+         "like_count": 447
+      },
+      "description": "",
+      "entities": "",
+      "pinned_tweet_id": "",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1688656049035698176/8-zDHXUW_normal.jpg"
+   },
+   {
+      "id": "1687706833962618880",
+      "name": "Goated",
+      "username": "GoatedPlayss",
+      "created_at": "2023-08-05T06:07:29.000Z",
+      "location": "Texas",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 2339,
+         "following_count": 78,
+         "tweet_count": 2063,
+         "listed_count": 17,
+         "like_count": 3010
+      },
+      "description": "Sports Lab \ud83e\uddea\ud83d\udd2cHybrid capper in Banesquad discord Download Chalkboard & Sleeper and use code: GOATED & RF-GOATED for Sleeper.",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/ZN4PpeO7mg",
+                  "expanded_url": "https://discord.gg/VTqxt92f",
+                  "display_url": "discord.gg/VTqxt92f"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1731911721235714226",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1722400250520805377/PmF33yF5_normal.jpg"
+   },
+   {
+      "id": "1690209690343591936",
+      "name": "Nino",
+      "username": "Crowcainecowboy",
+      "created_at": "2023-08-12T03:52:55.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 19,
+         "following_count": 132,
+         "tweet_count": 6,
+         "listed_count": 0,
+         "like_count": 96
+      },
+      "description": "Gamble till the wheels fall off.",
+      "entities": "",
+      "pinned_tweet_id": "",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1713830969868996608/hXPZcN0n_normal.jpg"
+   },
+   {
+      "id": "1730038598416674816",
+      "name": "Tiagosnsites",
+      "username": "tiagosnsites",
+      "created_at": "2023-11-30T01:38:58.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 764,
+         "following_count": 34,
+         "tweet_count": 556,
+         "listed_count": 1,
+         "like_count": 337
+      },
+      "description": "This page is for updated basketball data so you can place your best bets cheat sheets injury updates etc #banesquad \ud83d\udcb5\ud83d\udcf2 $TQUE",
+      "entities": {
+         "description": {
+            "hashtags": [
+               {
+                  "start": 105,
+                  "end": 115,
+                  "tag": "banesquad"
+               }
+            ],
+            "cashtags": [
+               {
+                  "start": 119,
+                  "end": 124,
+                  "tag": "TQUE"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1734243193980334132",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1730039106653057024/gJa_ZFsd_normal.jpg"
+   },
+   {
+      "id": "2662183459",
+      "name": "Rob:):",
+      "username": "mr_chaaa",
+      "created_at": "2014-07-20T08:03:53.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 965,
+         "following_count": 490,
+         "tweet_count": 39565,
+         "listed_count": 1,
+         "like_count": 79100
+      },
+      "description": "R.I.P. DAD\ud83d\ude4f\ud83d\udc99 YCTWU:WG LONGLIVELEE LONGLIVECEZ\ud83d\udd4a\ud83d\udc99",
+      "entities": "",
+      "pinned_tweet_id": "1357396073279463425",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1725107111947091968/udoKGMO6_normal.jpg"
+   },
+   {
+      "id": "352497615",
+      "name": "Marko Sportinfo",
+      "username": "Koperbox",
+      "created_at": "2011-08-10T18:14:41.000Z",
+      "location": "Republic of Slovenia",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 694,
+         "following_count": 292,
+         "tweet_count": 3252,
+         "listed_count": 3,
+         "like_count": 1630
+      },
+      "description": "Editor and writer at https://t.co/6dX2rHtSrA",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/fVV0Ueo7Yz",
+                  "expanded_url": "https://www.facebook.com/slovenianba/?eid=ARAI4s5oj8SVt30tLYYyb6xWHpXSBjjAJgw74ZN0xPjE7exPXRJD2kQk8m",
+                  "display_url": "facebook.com/slovenianba/?e\u2026"
+               }
+            ]
+         },
+         "description": {
+            "urls": [
+               {
+                  "start": 21,
+                  "end": 44,
+                  "url": "https://t.co/6dX2rHtSrA",
+                  "expanded_url": "http://sportinfo.si/",
+                  "display_url": "sportinfo.si"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1504917198942490632/vqiiR6IR_normal.jpg"
+   },
+   {
+      "id": "2514682292",
+      "name": "Matej Sportinfo",
+      "username": "MatejSportinfo",
+      "created_at": "2014-05-22T06:49:46.000Z",
+      "location": "Slovenija",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 3806,
+         "following_count": 451,
+         "tweet_count": 37201,
+         "listed_count": 20,
+         "like_count": 86915
+      },
+      "description": "Matej Petek\nPodcast: https://t.co/ZN6XLKCuSy and https://t.co/dg36O0CTN6\nReddit: https://t.co/6LS56U7GWJ",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/wp9RFyLYIc",
+                  "expanded_url": "http://sportinfo.si",
+                  "display_url": "sportinfo.si"
+               }
+            ]
+         },
+         "description": {
+            "urls": [
+               {
+                  "start": 21,
+                  "end": 44,
+                  "url": "https://t.co/ZN6XLKCuSy",
+                  "expanded_url": "https://www.youtube.com/channel/UCKLpnltwWgurfvVlHp7krFg",
+                  "display_url": "youtube.com/channel/UCKLpn\u2026"
+               },
+               {
+                  "start": 49,
+                  "end": 72,
+                  "url": "https://t.co/dg36O0CTN6",
+                  "expanded_url": "http://soundcloud.com/sportinfo",
+                  "display_url": "soundcloud.com/sportinfo"
+               },
+               {
+                  "start": 81,
+                  "end": 104,
+                  "url": "https://t.co/6LS56U7GWJ",
+                  "expanded_url": "https://www.reddit.com/r/NBA_Slovenija/",
+                  "display_url": "reddit.com/r/NBA_Slovenij\u2026"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1734206981617930290",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1419700165108244483/Dvtj-RqW_normal.jpg"
+   },
+   {
+      "id": "887259665641418752",
+      "name": "Matej Lahovnik",
+      "username": "LahovnikMatej",
+      "created_at": "2017-07-18T10:36:03.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 27705,
+         "following_count": 347,
+         "tweet_count": 11444,
+         "listed_count": 39,
+         "like_count": 16450
+      },
+      "description": "Professor at University of Ljubljana & Former Minister",
+      "entities": "",
+      "pinned_tweet_id": "",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1451661507192836102/93pqKboD_normal.jpg"
+   },
+   {
+      "id": "1422300557629349889",
+      "name": "ThePlugs SportsBets",
+      "username": "WePluggedInn",
+      "created_at": "2021-08-02T20:57:43.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 5445,
+         "following_count": 2882,
+         "tweet_count": 22460,
+         "listed_count": 49,
+         "like_count": 39742
+      },
+      "description": "Im Your Favorite Cappers Plug! Founder of #TheOutLetSV discord & Host of #PlugTalkSports Join Our Community,The OutLet for Winning Sports Bets! Website Live!",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/KmlbKeBeGW",
+                  "expanded_url": "http://theoutletsv.com",
+                  "display_url": "theoutletsv.com"
+               }
+            ]
+         },
+         "description": {
+            "hashtags": [
+               {
+                  "start": 42,
+                  "end": 54,
+                  "tag": "TheOutLetSV"
+               },
+               {
+                  "start": 73,
+                  "end": 88,
+                  "tag": "PlugTalkSports"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1704270552913862695",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1607902718785458178/nNEs8K_U_normal.jpg"
+   },
+   {
+      "id": "1563595593364021249",
+      "name": "\u2730",
+      "username": "CookedbyHR",
+      "created_at": "2022-08-27T18:33:56.000Z",
+      "location": "",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 1043,
+         "following_count": 1034,
+         "tweet_count": 1537,
+         "listed_count": 1,
+         "like_count": 87
+      },
+      "description": "@Warriors \u00d7 @Celtics \u00d7 #NBATwitter || Lebron Legacy Defender || Everything Happens For A Reason",
+      "entities": {
+         "description": {
+            "hashtags": [
+               {
+                  "start": 23,
+                  "end": 34,
+                  "tag": "NBATwitter"
+               }
+            ],
+            "mentions": [
+               {
+                  "start": 0,
+                  "end": 9,
+                  "username": "Warriors"
+               },
+               {
+                  "start": 12,
+                  "end": 20,
+                  "username": "Celtics"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1679659012529311744",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1723064474255392768/ZEo3dRWU_normal.jpg"
+   },
+   {
+      "id": "2800624354",
+      "name": "Alec",
+      "username": "DatYinzerAlec",
+      "created_at": "2014-10-02T19:06:23.000Z",
+      "location": "Cary, NC",
+      "protected": false,
+      "public_metrics": {
+         "followers_count": 973,
+         "following_count": 356,
+         "tweet_count": 32558,
+         "listed_count": 10,
+         "like_count": 31529
+      },
+      "description": "22 | He/Him | \ud83d\udc1d\ud83d\udc27\ud83d\ude80\ud83c\udff4\u200d\u2620\ufe0f | PxP\u2014\ud83c\udfc8\ud83c\udfd2\ud83c\udfc0\u26be\ufe0f\u26bd\ufe0f\ud83c\udfc1 | Sonic, South Park | Film, VA, \u201cThe Hockey Hour\u201d & #SpacesHost | RIP Chester | RIP AJ47",
+      "entities": {
+         "url": {
+            "urls": [
+               {
+                  "start": 0,
+                  "end": 23,
+                  "url": "https://t.co/d0PhMQhsGP",
+                  "expanded_url": "https://youtu.be/9ykk8NJJas0",
+                  "display_url": "youtu.be/9ykk8NJJas0"
+               }
+            ]
+         },
+         "description": {
+            "hashtags": [
+               {
+                  "start": 89,
+                  "end": 100,
+                  "tag": "SpacesHost"
+               }
+            ]
+         }
+      },
+      "pinned_tweet_id": "1718468776386064526",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1718488727532560385/Hq4923vO_normal.jpg"
+   }
+]
