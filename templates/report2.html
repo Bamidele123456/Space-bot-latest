@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-   
+
         <div class="flex items-center justify-between">
             <a href="/"
                     class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
@@ -23,7 +23,7 @@
                     Download JSON
                 </a>
             </div>
-      
+
             <div class="w-max h-max">
                 <a href="{{ url_for('spreadsheets') }}"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2">
                    UPLOAD TO SHEET
@@ -85,7 +85,7 @@
                 Download JSON
             </a>
             <div id="counter" class="text-center font-bold">
-                
+
             </div>
 
             <table class="table-auto w-full">
@@ -112,40 +112,39 @@
 
         <script>
             fetch('/get_space_data')
-                .then(response => response.json())
-                .then(data => {
-                    const spaceDataBody = document.getElementById('spaceDataBody');
-                    data.forEach(space_data => {
-                        const row = document.createElement('tr');
-
-                        row.innerHTML = `
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.ID || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.State || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Created || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Ended || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;" >${space_data.Host || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Language || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.invited_user_ids || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Participant || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Participant || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Scheduled || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Started || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Space_Title || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Topics_Ids || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.topic_name || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.topic_des || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.Updated || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.speakers || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.speakersn || 'N/A'}</td>
-                            <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${space_data.speakersn || 'N/A'}</td>
-                        `;
-                        spaceDataBody.appendChild(row);
-                    });
-                })
-                .catch(error => console.error('Error:', error));
+            .then(response => response.json())
+            .then(data => {
+              const spaceDataBody = document.getElementById('spaceDataBody');
+              const row = document.createElement('tr');
 
 
-            fetch('/get_space_user_data') 
+              row.innerHTML = `
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.id}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.state}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.created_at}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.ended_at}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;" >${data.host_ids}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.lang}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.invited_user_ids}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.participant_count}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.participant_count}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.scheduled_start}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.started_at}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.title}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.topic_ids}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.topic_name}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.topic_des}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.updated_at}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.speakers}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.speakersn}</td>
+                  <td class="px-4 py-2" style="font-family: 'Arial', sans-serif;">${data.speakersn}</td>
+              `;
+              spaceDataBody.appendChild(row);
+            })
+            .catch(error => console.error('Error:', error));
+
+
+            fetch('/get_space_user_data')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`Network response was not ok: ${response.statusText}`);
@@ -177,7 +176,6 @@
                 console.error('Error fetching data:', error);
             });
         </script>
-        
+
 </body>
 </html>
-

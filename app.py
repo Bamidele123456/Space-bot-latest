@@ -180,7 +180,7 @@ def home():
                 
                 eq.to_csv(f'{space_id}_data.csv', index=False)
                 df.to_csv(f'{space_id}_spaceData.csv', index=False,quoting=csv.QUOTE_NONNUMERIC)
-                return redirect('/report.html')
+                return redirect('/report2.html')
                 
         else:
             print(f"Error: {response.status_code}, {response.text}")
@@ -224,22 +224,26 @@ def hi():
             space_datas = []
             for space_data in space_data_list:
                 custom_space_data = {
-                    'Space Title': space_data.get('title', ''),
-                    'Topics Ids': ', '.join(map(str, space_data.get('topic_ids', []))),
+                    'Space_Title': space_data.get('title', ''),
+                    'Participant' : space_data.get('participant_count', ''),
+                    'ID' : space_data.get('id', ''),
+                    'Topics_Ids': ', '.join(map(str, space_data.get('topic_ids', []))),
                     'topic_name': [topic.get('name', '') for topic in topics],
                     'topic_des': [topic.get('description', '') for topic in topics],
-                    'Space State': space_data.get('state', ''),
-                    'Host ID': ', '.join(map(str, space_data.get('host_ids', []))),
+                    'State': space_data.get('state', ''),
+                    'Host': ', '.join(map(str, space_data.get('host_ids', []))),
                     'Creator ID': space_data.get('creator_id', ''),
-                    'Updated At': space_data.get('updated_at', ''),
+                    'Updated': space_data.get('updated_at', ''),
+                    'Scheduled': space_data.get('scheduled_start', ''),
                     'invited_user_ids': ', '.join(map(str, space_data.get('invited_user_ids', []))),
                     'speakers': ', '.join(map(str, space_data.get('speaker_ids', []))),
                     'speakersn': len(space_data.get('speaker_ids', [])),
                     'Total Moderators': len(space_data.get('speaker_ids', [])),
-                    'Created At': space_data.get('created_at', ''),
-                    'Ended At': space_data.get('ended_at', ''),
+                    'Created': space_data.get('created_at', ''),
+                    'Started': space_data.get('started_at', ''),
+                    'Ended': space_data.get('ended_at', ''),
                     'Language': space_data.get('lang', ''),
-                    'Subscriber Count': space_data.get('participant_count', '')
+                    'Subscriber': space_data.get('participant_count', '')
                 }
 
                 formatted_space = {}
@@ -305,9 +309,9 @@ def hi():
                 keys_to_expand = ['invited_user_ids', 'topic_ids', 'host_ids']
 
                 desired_order_space_data = [
-                    'Space Title', 'Topics Ids', 'topic_des', 'topic_name', 'Space State', 'Host ID', 'Creator ID',
-                    'Updated At', 'invited_user_ids', 'speakers', 'speakersn',
-                    'Total Moderators', 'Created At', 'Ended At', 'Language', 'Subscriber Count'
+                    'Space_Title', 'Participant','ID', 'Topics_Ids', 'topic_des', 'topic_name', 'State', 'Host', 'Creator ID','Started',
+                    'Updated','Scheduled', 'invited_user_ids', 'speakers', 'speakersn',
+                    'Total Moderators', 'Created', 'Ended', 'Language', 'Subscriber'
                 ]
 
                 eq = eq[desired_order_space_data]
@@ -349,6 +353,9 @@ def hi():
 
     return render_template('index.html')
 
+@load.route('/report2.html')
+def reports():
+    return render_template('report2.html')
 @load.route('/report.html')
 def report():
     return render_template('report.html')
@@ -397,7 +404,7 @@ def download_files():
     with open(json_file_path, "r") as json_file:
         data = json.load(json_file)
         last_space_id = data[-1]['space_id']
-    files_to_download = ['space_data.json', f'{last_space_id}spaceData.csv', f'{last_space_id}data.csv', 'space_user_data.json']
+    files_to_download = ['space_data.json', f'{last_space_id}_spaceData.csv', f'{last_space_id}_data.csv', 'space_user_data.json']
     zip_buffer = BytesIO()
     
     with zipfile.ZipFile(zip_buffer, 'a', zipfile.ZIP_DEFLATED, False) as zip_file:
