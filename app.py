@@ -18,7 +18,7 @@ scheduler.start()
 load = Flask(__name__)
 load.secret_key = 'Quadri Basit Ayomide'
 
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAGySqgEAAAAA0JqsjgfL1SbzyhyABcKXE4uSaac%3DJAYEPUd81SKOqZiJNQII9VEN9P2CCoe2VusnSKlzyKSjpLGgHa"
+bearer_token = ""
 @load.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
